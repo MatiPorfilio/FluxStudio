@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ElectroZamb | Matías Porfilio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+</head>
+<body>
+
+  <!-- Header minimal -->
+  <header class="header-premium">
+    <div class="header-content">
+      <img src="img/logo.png" alt="ElectroZamb" class="logo-premium">
+      <h1 class="agency-name-premium">FluxStudio</h1>
+    </div>
+    <nav class="nav-premium">
+      <a href="#info" class="nav-link"><span>Nosotros</span></a>
+      <a href="#team" class="nav-link"><span>Equipo</span></a>
+      <a href="#services" class="nav-link"><span>Servicios</span></a>
+      <a href="#portfolio" class="nav-link"><span>Portfolio</span></a>
+      <a href="#contact" class="nav-link"><span>Contacto</span></a>
+    </nav>
+  </header>
+
+  <!-- Canvas 3D -->
+  <section class="canvas-section" id="canvas">
+    <div id="canvas-container"></div>
+  </section>
+
+  <!-- Info agencia -->
+  <section class="info-premium scroll-animate" id="info">
+    <div class="text-block">
+      <h2>Sobre FluxStudio</h2>
+      <p>
+        En FluxStudio creemos que la creatividad nunca es estática. El diseño, la tecnología y la comunicación evolucionan a una velocidad que exige adaptarse, transformarse y fluir constantemente. Por eso nacimos: para ofrecer soluciones visuales inteligentes que se ajusten a las nuevas formas en las que las personas consumen contenido, interactúan con las marcas y experimentan el mundo digital.
+
+Somos un estudio multimedial especializado en diseño gráfico, identidad visual, contenido digital, animación, edición, branding y experiencias visuales completas para marcas que buscan diferenciarse. Combinamos estrategia, estética y tecnología para crear piezas que no solo se vean bien, sino que también conecten, transmitan y generen impacto real.
+      </p>
+    </div>
+  </section>
+
+  <!-- Integrante con foto personal -->
+  <section class="team-premium scroll-animate" id="team">
+    <div class="team-grid">
+      <div class="team-text">
+        <h2>Conocé al Creador</h2>
+        <p>Matías Porfilio</p>
+        <span>🎨 Rol principal:
+
+Director Creativo & Diseñador Multimedial.
+Lidera la estética, conceptualización y construcción visual de todos los proyectos del estudio.
+<br> <br>
+⚡ Habilidades destacadas:
+
+Branding y creación de identidades.
+
+Diseño visual y composiciones de alto impacto.
+
+Edición y contenido digital.
+
+Motion graphics y animación simple.
+
+Dirección conceptual.
+<br> <br>
+🧩 Enfoque creativo:
+
+Combinar estética moderna con funcionalidad real.
+Trabajo minimalista, con dramatismo visual, precisión y coherencia conceptual.
+<br> <br>
+🛠 Herramientas que domina:
+
+Adobe Photoshop.
+
+Adobe Illustrator.
+
+Adobe Premiere.
+
+Adobe After Effects.
+
+Desarrollo Web con HTML, CSS y JS.
+
+IA para soporte creativo.</span>
+      </div>
+      <div class="team-image">
+        <br> <br> <br> <br> 
+        <img src="img/persona1.jpg" alt="Matías Porfilio">
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios (4 pastillas) -->
+  <section class="services-premium scroll-animate" id="services">
+    <h2>Servicios</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="img/icon1.png" alt="Diseño Web">
+        <h3>Desarrollo Web</h3>
+        <p>Sitios que se sienten como experiencias, no como páginas.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/icon2.png" alt="Animación 3D">
+        <h3>Modelado y Animación 3D</h3>
+        <p>Modelado, iluminación y storytelling en movimiento.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/icon3.png" alt="Branding">
+        <h3>Branding</h3>
+        <p>Identidades visuales que conectan y perduran.</p>
+      </div>
+      <div class="service-card">
+        <img src="img/icon4.png" alt="Realidad Aumentada">
+        <h3>Motion Graphics</h3>
+        <p>Visuales en movimiento con precisión y estilo profesional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio (3 trabajos) -->
+  <section class="portfolio-premium scroll-animate" id="portfolio">
+    <br>
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="img/trabajo1.jpg" alt="Trabajo 1">
+        <div class="portfolio-overlay">
+          <h3>Loading Screen</h3>
+          <p>2025</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/trabajo2.jpg" alt="Trabajo 2">
+        <div class="portfolio-overlay">
+          <h3>Volkswagen Motion Graphics</h3>
+          <p>2025</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/trabajo3.jpg" alt="Trabajo 3">
+        <div class="portfolio-overlay">
+          <h3>Branding</h3>
+          <p>2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto con íconos estilizados -->
+  <section class="contact-premium scroll-animate" id="contact">
+    <br>
+    <h2>Contacto</h2>
+    <p>matiasporfilio@davinci.edu.ar</p>
+    <div class="social-icons-premium">
+      <!-- INSTAGRAM -->
+      <a href="https://www.instagram.com/matiiporfilio/" target="_blank" class="social-icon-premium instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <!-- BEHANCE -->
+      <a href="https://www.behance.net/matiasporfilio" target="_blank" class="social-icon-premium behance">
+        <i class="fab fa-behance"></i>
+      </a>
+
+      <!-- LINKEDIN -->
+      <a href="https://www.linkedin.com/in/matiasporfilio/" target="_blank" class="social-icon-premium linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+
+  <!-- Footer con datos de cursada -->
+  <footer class="footer-premium">
+    <p>Carrera: Diseño Multimedial | Materia: Diseño y Programación Web I | Turno: Noche | Comisión: DMN3AP</p>
+    <p>Docente: Antonio Rubio | Mes y Año: Noviembre 2025 | Segundo Parcial</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/sketch.js"></script>
+  <script>
+    // Scroll suave
+    document.querySelectorAll('.nav-link').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Animación al aparecer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
